@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.box1{height: 1374px;
+    background-image: url('img/bg01.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;   
+}
+.box2{height: 667px;
+    background-image: url('img/bg02.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    
+}
+.box3{height: 986px;
+    background-image: url('img/bg03.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+.box4{
+    height: 918px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5{height: 860px;
+      background-color: #EFEFEF;  
+}
+.box6{
+    height: 975px;
+
+}
+footer{
+    height: 147px;
+    background-color: #4759AA;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    border: 0px solid red;
+    height: 100%;
+}
+
+.box1 > .wrap{
+    width: 1417px;
+}
+
+.size_th{
+    width: 1100px;
+}
+
+.aligh_ct{
+    display: flex;
+    justify-content: center;
+}
+
+.box1 > .wrap > img{
+    margin-top: 69px;
+    
+}
+
+.box2 > .wrap > img{
+    margin-left: 25px;
+    margin-top: 29px;
+}
+
+.box3 > .wrap > img{
+    margin-left: 38px;
+    margin-top: 113px;
+}
+
+.box4 > .wrap > img{
+    margin-top: 99px;
+}
+
+.box5 > .wrap > img{
+    margin-bottom: 120px;
+    margin-top: 81px;
+}
